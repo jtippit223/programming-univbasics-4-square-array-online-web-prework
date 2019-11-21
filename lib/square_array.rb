@@ -1,4 +1,4 @@
-def square_array(numbers)
+def square_array(Array)
   count = 0
   while count < Array.length do
     numbers[count] ** 2
