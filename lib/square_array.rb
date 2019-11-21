@@ -3,5 +3,6 @@ def square_array(numbers)
   while count < numbers.length do
     numbers[count] ** 2
     count += 1
-  end
-end 
+    end
+    square_array(numbers)
+    end
